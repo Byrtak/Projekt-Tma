@@ -16,7 +16,7 @@
     </div>
     <li class="sideButt"><a href="#">Co vidět je, když nejsem</a></li>
     <div class="supSidenav">
-        <li><a href="uvnitrSvetnice.html"> Uvnitř světnice</a></li>
+        <li><a href="uvnitrSvetnice.php"> Uvnitř světnice</a></li>
         <li><a href="kolemSvetnice.php">Svět kolem světnice</a></li>
     </div>
     <div id="lastHref">

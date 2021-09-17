@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tma není</title>
+</head>
+<body>
+    
+
+    <div id="mySidenav" class="sidenav">
+        <ul id="list">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Úvodní stránka</a>
+        <a href="gallery.html">Kdo jsem</a>
+        <a href="#" class="sideButt">Co halím, když jsem</a>
+        <div class="supSidenav">
+            <a href="">Vybavení světnice</a>
+            <a href="">Stravování</a>
+            <a href="">Co je slyšet</a>
+        </div>
+        <a href="#">Co stojím, abych byla</a>
+        <a href="#" class="sideButt">Co je vidět je, když nejsem</a>
+        <div class="supSidenav">
+            <a href=""> Uvnitř světnice</a>
+            <a href="">Svět kolem světnice</a>
+        </div>
+        <a href="#" class="sideButt"><span style="color: #eeeeee;">K objednání jsem</span></a>
+        <div class="supSidenav">
+            <a href="">Poslední informace</a>
+            <a href="">Volné termíny</a>
+            <a href="">Objednání termínu</a>
+            <a href="">Všeobecné podmínky</a>
+        </div>
+        <a href="#"><span style="color: #eeeeee;">Kontakt</span></a>
+        
+        </ul>
+
+      </div>
+      
+      <div id="mySidenavButton" class="mySidenavButt" onclick="openNav()">
+      &#9776;
+      </div>
+      <div class="container">
+        <div class="heading">
+            <h3>Galerie</h3>
+        </div>
+        <div class="box">
+            <div class="gallery-img">
+                <img src="1959300.jpg" alt="">
+                <img src="a79be22f8e4d96227a650fb1406ec30f.jpg" alt="" id="selectedImage">
+                <img src="maxresdefault.jpg" alt="" id="selectedImage">
+                <img src="chill-aesthetichd-wallpapers-desktop-background-android-iphone-1080p-4k-ro4yj-3840x2160.jpg" alt="" id="selectedImage">
+                <img src="maxresdefault.jpg" alt="" id="selectedImage">
+                <img src="artworks-ZHCyxMGGVtXQZ68L-xLrrjQ-t500x500.jpg" alt="" id="selectedImage">
+            </div>
+
+            <div class="gallery-img">
+                <img src="artworks-ZHCyxMGGVtXQZ68L-xLrrjQ-t500x500.jpg" alt="" id="selectedImage">
+                <img src="maxresdefault.jpg" alt="" id="selectedImage">
+                <img src="a79be22f8e4d96227a650fb1406ec30f.jpg" alt="" id="selectedImage">
+                <img src="2409545.jpg" alt="" id="selectedImage">
+                <img src="maxresdefault.jpg" alt="" id="selectedImage">
+                <img src="riandita-dwi-bg-kafe.jpg" alt="" id="selectedImage">
+            </div>
+
+            <div class="gallery-img">
+                <img src="1959300.jpg" alt="">
+                <img src="2984122.jpg" alt="">
+                <img src="artworks-ZHCyxMGGVtXQZ68L-xLrrjQ-t500x500.jpg" alt="">
+                <img src="riandita-dwi-bg-kafe.jpg" alt="" >
+                <img src="1959300.jpg" alt="" >
+                <img src="riandita-dwi-bg-kafe.jpg" alt="" >
+            </div>
+        </div>
+      </div>
+      
+        
+    </div>
+
+
+
+
+
+      <script>
+      function openNav() {
+        document.getElementById("mySidenavButton").style.display = 'block';
+        document.getElementById("list").style.transition = "0.7s";
+        document.getElementById("list").style.display = 'block';
+        
+        document.getElementById("mySidenav").style.transition = "1.2s";
+        document.getElementById("mySidenavButton").style.color = "black";
+        document.getElementById("mySidenav").style.width = "25%";
+  
+        
+      }
+      
+      function closeNav() {
+        
+        
+        
+        document.getElementById("list").style.transition = "0.4s";
+        document.getElementById("list").style.display = 'none';
+        
+
+        document.getElementById("mySidenavButton").style.transition = "1.3s";
+        document.getElementById("mySidenavButton").style.color = "white";
+        document.getElementById("mySidenavButton").style.display = 'block';
+        
+        document.getElementById("mySidenav").style.transition = "0.5s";
+        document.getElementById("mySidenav").style.width = "0%";
+
+        document.getElementsByClassName("supSidenav").style.display ='none';
+      }
+
+      var dropdown = document.getElementsByClassName("sideButt");
+    var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+  
+}
+
+
+const lightbox = document.createElement("div")
+lightbox.id = "lightbox"
+document.body.appendChild(lightbox)
+
+const images = document.querySelectorAll("img")
+images.forEach(element => {
+  element.addEventListener("click", e => {
+    lightbox.classList.add("active")
+    const img = document.createElement("img")
+    img.src = element.src
+    while (lightbox.firstChild) {
+      lightbox.removeChild(lightbox.firstChild)
+    }
+    lightbox.appendChild(img)
+  })
+})
+
+lightbox.addEventListener("click", e => {
+  if (e.target !== e.currentTarget) return
+  lightbox.classList.remove("active")
+})
+</script>
+    
+
+
+</body>
+</html>

@@ -75,6 +75,14 @@ body{
   animation-delay: 5s;
   animation:obr 2s cubic-bezier(1, -0.06, 1, 1.01);  
 }
+@keyframes animaceGreen {
+  0%   { color:black; opacity: 0; }
+  100% {color:#8de67b; opacity: 100;}
+}
+.boldtext {
+  color: #8de67b;
+  animation: animaceGreen 2s ease-in;
+}
 
 /*Menu*/
 .sidenav {

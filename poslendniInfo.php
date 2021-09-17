@@ -14,7 +14,7 @@
                 dělat společnost, učiníš první krok k tomu, abys to zjistil, abys to zjistila. <br> <span class="boldtext">
                 <b>Před rezervací si ještě prostuduj <a style="animation: animaceGreen 2s ease-in;
                 text-decoration: none; 
-                color: #8de67b;"href="podminky.html">všeobecné podmínky</a>.</b></span>
+                color: #8de67b;"href="podminky.php">všeobecné podmínky</a>.</b></span>
                 Budeš-li si rezervovat termín, předpokládá se, že s
                 nimi souhlasíš.
             </p>

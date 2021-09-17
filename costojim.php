@@ -1,7 +1,7 @@
 <?php $title = 'Tma neni'; ?>
 <?php $currentPage = 'index'; ?>
 <?php include('head.php'); ?>
-<?php include('navbar.php'); ?>¨
+<?php include('navbar.php'); ?>
 
 <body>
 <main>

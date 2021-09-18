@@ -26,7 +26,7 @@
         <li><a href="https://www.supersaas.cz/schedule/Tma_neni/Tma_Nen%C3%AD" target="_blank">Objednání termínu</a></li>
         <li><a href="podminky.php">Všeobecné podmínky</a></li>
     </div>
-    <li> <a href="#"><span style=" text-decoration-line: underline; text-underline-offset: 7px;">Kontakt</span></a></li>
+    <li> <a href="kontakt.php"><span style=" text-decoration-line: underline; text-underline-offset: 7px;">Kontakt</span></a></li>
     </div>
     </ul>
 

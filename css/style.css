@@ -10,11 +10,21 @@ main{
     float: right;
 }
 .flexrow{
-  margin: 1% 1% 2% 2%;
+  margin: 1% 1% 1% 2%;
   display: flex;
+  flex: 1;
 }
 .fbox{
     flex: 2;
+}
+.mapbox{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.mapa{
+  flex: 1;
+  margin: 0% 1% 2% 2%;
 }
 .fbox >p {
   animation: animace 2s ease-in;
@@ -32,7 +42,7 @@ main{
 #fobr >img{
   padding: auto;
   margin: auto;
-  width: 80%;
+  width: 91%;
 }
 .nadpis{
   display: flex;

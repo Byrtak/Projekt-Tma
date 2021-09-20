@@ -5,6 +5,7 @@
 
 <body>
 <main>
+    <div class="mapbox">
     <article class=flexrow>
         <div class="fbox">
             <p>
@@ -14,31 +15,17 @@
             </p>
         </div>
         <div id="fobr">
-            <!-- <img class="obrazek" style="width:60%" src="img/logo.png" alt=""> -->
-            <div id="mapa" style="width:600px; height:400px;"></div>
-            <script type="text/javascript">
-		var stred = SMap.Coords.fromWGS84(15.77046, 50.12500);
-		var mapa = new SMap(JAK.gel("mapa"), stred, 14);
-		mapa.addDefaultLayer(SMap.DEF_BASE).enable();
-		mapa.addDefaultControls();	     
-        
-        
-        var layer = new SMap.Layer.Marker();
-mapa.addLayer(layer);
-layer.enable();
-
-var card = new SMap.Card();
-card.getHeader().innerHTML = "<strong>Tady jsem</strong>";
-card.getBody().innerHTML = "Ahoj, já jsem <em>světnice</em>!";
-
-var options = { 
-    title: "Tma není"
-};
-var marker = new SMap.Marker(stred, "myMarker", options);
-marker.decorate(SMap.Marker.Feature.Card, card);
-layer.addMarker(marker);
-	</script>
+        <img class="obrazek" style="width:90%" src="img/logo3.png" alt="">
         </div>          
-    </article>       
+    </article> 
+    <div class="mapa">
+        <div id="mapa" style="width:800px; height:400px;"></div>
+    </div>
+    </div>  
+    
+        
+                    
+    
+    <script type="text/javascript" src="js/map.js"></script>
 </main>
 </body>

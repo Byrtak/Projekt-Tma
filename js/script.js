@@ -47,7 +47,7 @@ color: "white"
     document.getElementById("mySidenav").style.transition = "0.5s";
     document.getElementById("mySidenav").style.width = "0%";
 
-    document.getElementsByClassName("supSidenav").style.display ='none';
+    
   }
 
   var dropdown = document.getElementsByClassName("sideButt");

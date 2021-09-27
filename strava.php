@@ -1,13 +1,14 @@
 <?php $title = 'Tma neni'; ?>
 <?php $currentPage = 'index'; ?>
-<?php include('head.php'); ?>
-<?php include('navbar.php'); ?>
+<?php include('utilities/head.php'); ?>
+<?php include('utilities/navbar.php'); ?>
+
 
 <body>
 <main>
-    <article class=flexrow>
+    <article class=flexrow type="article">
         <div class="fbox">
-            <p>                    
+            <p  type="text">                    
                 V ceně zapůjčené místnosti si můžeš dopřát doma pražené müsli, jablka, domácí špaldový
                 chleba, vajíčka z vlastního chovu – vše v míře, kterou budeš potřebovat. <br>
                 Další vařené jídlo je hrazeno zvlášť. Je dováženo z jídelny pro zdraví Pohanka z Pardubic. Z
@@ -18,7 +19,7 @@
             </p>
         </div>
         <div id="fobr">
-            <img class="obrazek" style="width:70%" src="img/logo.png" alt="">
+            <img class="obrazek"  type="image/png" style="width:70%" src="img/logo.png" alt="Logo Tmy">
         </div>
     </article>   
 </main>

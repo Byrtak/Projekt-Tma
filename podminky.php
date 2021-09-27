@@ -1,14 +1,15 @@
 <?php $title = 'Tma neni'; ?>
 <?php $currentPage = 'index'; ?>
-<?php include('head.php'); ?>
-<?php include('navbar.php'); ?>
+<?php include('utilities/head.php'); ?>
+<?php include('utilities/navbar.php'); ?>
+
 
 
 <body>
     <main>
-        <article class=flexrow>
+        <article class=flexrow type="article">
             <div class="fbox">
-                <p>
+                <p type="text">
                     Předmětem dobrovolného příspěvku za pobyt ve tmě je zapůjčení světnice k tomu určené. <br>
                     V případě, že pobyt předčasně ukončíš, zaplacená částka propadá v plné výši.<br>
                     Objednávka zapůjčení světnice je závazná.<br>

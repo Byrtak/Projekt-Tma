@@ -1,13 +1,14 @@
 <?php $title = 'Tma neni'; ?>
 <?php $currentPage = 'index'; ?>
-<?php include('head.php'); ?>
-<?php include('navbar.php'); ?>
+<?php include('utilities/head.php'); ?>
+<?php include('utilities/navbar.php'); ?>
+
 
 <body>
 <main>
-    <article class=flexrow>
+    <article class=flexrow type="article">
         <div class="fbox">
-            <p>
+            <p type="text">
                 Prostory světnice Ti budou zapůjčeny za dobrovolný příspěvek 1000,- na den. Pobyt je
                 zahájen vždy v pátek v odpoledních hodinách a ukončen následující pátek v hodinách
                 dopoledních. <br>
@@ -22,7 +23,7 @@
             </p>
         </div>
         <div id="fobr">
-            <img class="obrazek" style="width:60%" src="img/logo.png" alt="">
+            <img class="obrazek" type="image/png" style="width:60%" src="img/logo.png" alt="Logo Tmy">
         </div>          
     </article>       
 </main>

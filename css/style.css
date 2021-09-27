@@ -21,10 +21,14 @@ main{
   display: flex;
   flex: 1;
   flex-direction: column;
+  align-items: center;
+
 }
 .mapa{
   flex: 1;
   margin: 0% 1% 2% 2%;
+
+  animation: obr 2s cubic-bezier(0.4, 0, 1, 1)
 }
 .fbox >p {
   animation: animace 2s ease-in;
@@ -78,11 +82,12 @@ main{
   0%   { opacity: 0; }
   100%  {opacity: 100;}
 }
+
 .obrazek{
   top: 0;
   position: sticky;
   animation-delay: 5s;
-  animation:obr 2s cubic-bezier(1, -0.06, 1, 1.01);  
+  animation:obr 2s cubic-bezier(0.4, 0, 1, 1)
 }
 @keyframes animaceGreen {
   0%   { color:black; opacity: 0; }
@@ -131,7 +136,7 @@ li {
   transition: 0.4s;  
 }
 li a:hover{
-  font-size: 1.52em;
+  font-size: 1.509em;
 }
 
 .sidenav a:active{
@@ -325,7 +330,7 @@ p{
 .flexrow{
   margin: 1% 1% 2% 2%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 .fbox >p {
   padding: 5px;
@@ -340,7 +345,7 @@ main{
 }
 
 #fobr >img{
-  width: 50% !important;
+  width: 100% !important;
 }
 
 #block{

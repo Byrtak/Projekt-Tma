@@ -1,13 +1,14 @@
 <?php $title = 'Tma neni'; ?>
 <?php $currentPage = 'vybaveni'; ?>
-<?php include('head.php'); ?>
-<?php include('navbar.php'); ?>
+<?php include('utilities/head.php'); ?>
+<?php include('utilities/navbar.php'); ?>
+
 
 <body>
 <main>
-    <article class=flexrow>
+    <article class=flexrow type="article">
         <div class="fbox">
-            <p>
+            <p type="text">
                 Co můžete během pobytu v mých útrobách nahmatat v prostoru? Veškeré zdivo bylo
                 obloženo pocitově příjemnějším dřevěným obkladem. V zóně sociálního zařízení se setkáte
                 se sprchovým koutem, umyvadlem, elektrickým bojlerem a záchodem. <br> Čistě povlečená postel
@@ -23,7 +24,7 @@
             </p>
         </div>
         <div id="fobr">
-            <img class="obrazek" style="width:60%"src="img/logo.png" alt="">
+            <img class="obrazek" type="image/png" style="width:60%"src="img/logo.png" alt="logo Tmy">
         </div>
     </article>
 </main>

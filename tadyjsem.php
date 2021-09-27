@@ -1,13 +1,14 @@
 <?php $title = 'Tma neni'; ?>
 <?php $currentPage = 'tadyjsem'; ?>
-<?php include('head.php'); ?>
-<?php include('navbar.php'); ?>
+<?php include('utilities/head.php'); ?>
+<?php include('utilities/navbar.php'); ?>
+
 
 <body>
 <main>
-    <article class=flexrow>
+    <article class=flexrow type="article">
         <div class="fbox">
-            <p>
+            <p type="text">
                 Mým realizátorem je otec čtyř dětí, dřívější učitel, řemeslník amatér, v současnosti budovatel
                 kariéry v oblasti literatury, nadšenec pro setkávání se mnou. <br> V prvotní fázi mé prenatální
                 existence jsem měla být určena jen pro něj, to se časem změnilo. Proč bych měla sloužit
@@ -16,7 +17,7 @@
             </p>
         </div>
         <div id="fobr">
-            <img class="obrazek" src="img/logo.png" alt="">
+            <img class="obrazek" type="image/png" src="img/logo.png" alt="Logo Tmy">
         </div>
     </article>                    
 </main>

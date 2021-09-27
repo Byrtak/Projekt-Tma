@@ -1,13 +1,14 @@
 <?php $title = 'Tma neni'; ?>
 <?php $currentPage = 'kdojsem'; ?>
-<?php include('head.php'); ?>
-<?php include('navbar.php'); ?>
+<?php include('utilities/head.php'); ?>
+<?php include('utilities/navbar.php'); ?>
+
 
 <body>    
 <main>
-    <article class=flexrow>
+    <article class=flexrow type="article">
         <div class="fbox">
-            <p>
+            <p type="text">
                 Jsem Tma vyskytující se v prostoru místnosti, který byl pro mě speciálně upraven. <br>Místnost je
                 součástí samostatně stojící budovy hospodářského charakteru, v jejíž bezprostřední blízkosti
                 stojí dům.<br> Obě budovy obklopuje les. Není hluboký, není nekonečně rozsáhlý, je však
@@ -18,8 +19,7 @@
         </div>
             
         <div id="fobr">
-            <img class="obrazek" src="img/logo.png" alt="">
-            
+            <img class="obrazek" type="image/png" src="img/logo.png" alt="Logo Tmy">    
         </div>
     </article>        
 </main>

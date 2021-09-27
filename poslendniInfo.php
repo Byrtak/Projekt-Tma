@@ -1,13 +1,14 @@
 <?php $title = 'Tma neni'; ?>
 <?php $currentPage = 'index'; ?>
-<?php include('head.php'); ?>
-<?php include('navbar.php'); ?>
+<?php include('utilities/head.php'); ?>
+<?php include('utilities/navbar.php'); ?>
+
 
 <body>
 <main>
-    <article class=flexrow>
+    <article class=flexrow type="article">
         <div class="fbox">
-            <p>
+            <p type="text">
                 V úvodu jsi byl uvítán sloganem: Tma je jen mámení, tma není. Naše internetové stránky jsou
                 však koncipovány tak, že jsem a že k Tobě promlouvám. Tak jak to tedy je? Na to si musíš
                 přijít sám, na to si musíš přijít sama. <br> Rezervováním termínu, ve kterém dosud nemám nikomu
@@ -20,7 +21,7 @@
             </p>
         </div>
         <div id="fobr">
-            <img class="obrazek" style="width:70%" src="img/logo.png" alt="">
+            <img class="obrazek" type="image/png" style="width:70%" src="img/logo.png" alt="Logo Tmy">
         </div>
     </article>    
 </main>

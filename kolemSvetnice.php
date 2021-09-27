@@ -1,7 +1,8 @@
 <?php $title = 'Tma neni'; ?>
 <?php $currentPage = 'index'; ?>
-<?php include('head.php'); ?>
-<?php include('navbar.php'); ?>
+<?php include('utilities/head.php'); ?>
+<?php include('utilities/navbar.php'); ?>
+
 
 <body>
     <main>
@@ -9,30 +10,22 @@
         <div class="container">
             <div class="box">
                 <div class="gallery-img">
-                    <img src="galerie/1959300.jpg" alt="">
-                    <img src="galerie/a79be22f8e4d96227a650fb1406ec30f.jpg" alt="" id="selectedImage">
-                    <img src="galerie/maxresdefault.jpg" alt="" id="selectedImage">
-                    <img src="galerie/chill-aesthetichd-wallpapers-desktop-background-android-iphone-1080p-4k-ro4yj-3840x2160.jpg" alt="" id="selectedImage">
-                    <img src="galerie/maxresdefault.jpg" alt="" id="selectedImage">
-                    <img src="galerie/artworks-ZHCyxMGGVtXQZ68L-xLrrjQ-t500x500.jpg" alt="" id="selectedImage">
+                    <img src="galerie/1.png" type="image/png" alt="Pohled z lesa">
+                    <img src="galerie/2.png" type="image/png" alt="Od stromu z leva" id="selectedImage">
+                   
+                    
                 </div>
     
                 <div class="gallery-img">
-                    <img src="galerie/artworks-ZHCyxMGGVtXQZ68L-xLrrjQ-t500x500.jpg" alt="" id="selectedImage">
-                    <img src="galerie/maxresdefault.jpg" alt="" id="selectedImage">
-                    <img src="galerie/a79be22f8e4d96227a650fb1406ec30f.jpg" alt="" id="selectedImage">
-                    <img src="galerie/2409545.jpg" alt="" id="selectedImage">
-                    <img src="galerie/maxresdefault.jpg" alt="" id="selectedImage">
-                    <img src="galerie/riandita-dwi-bg-kafe.jpg" alt="" id="selectedImage">
+                    <img src="galerie/4.gif" type="image/gif" alt="Pohled do dveří tmy" id="selectedImage">
+                    <img src="galerie/5.jpg" type="image/jpg" alt="Domoobrana" id="selectedImage">
+                    
                 </div>
     
                 <div class="gallery-img">
-                    <img src="galerie/1959300.jpg" alt="">
-                    <img src="galerie/2984122.jpg" alt="">
-                    <img src="galerie/artworks-ZHCyxMGGVtXQZ68L-xLrrjQ-t500x500.jpg" alt="">
-                    <img src="galerie/riandita-dwi-bg-kafe.jpg" alt="" >
-                    <img src="galerie/1959300.jpg" alt="" >
-                    <img src="galerie/riandita-dwi-bg-kafe.jpg" alt="" >
+                    <img src="galerie/3.jpg" type="image/jpg" alt="Pohled do dveří tmy" id="selectedImage">
+                    <img src="galerie/6.jpg" type="image/jpg" alt="Drůbež" id="selectedImage">
+                    
                 </div>
             </div>
           </div>

@@ -10,7 +10,7 @@ layer.enable();
 
 var card = new SMap.Card();
 card.getHeader().innerHTML = "<strong>Tady jsem</strong>";
-card.getBody().innerHTML = "Ahoj, já jsem <em>světnice</em>!";
+card.getBody().innerHTML = "Ahoj, já jsem Tma, která není!<br> <br> Dvořáková 134 <br> Čeperka 533 45";
 
 var options = { 
     title: "Tma není"

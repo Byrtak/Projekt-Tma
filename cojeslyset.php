@@ -1,13 +1,13 @@
 <?php $title = 'Tma neni'; ?>
 <?php $currentPage = 'index'; ?>
-<?php include('head.php'); ?>
-<?php include('navbar.php'); ?>
+<?php include('utilities/head.php'); ?>
+<?php include('utilities/navbar.php'); ?>
 
 <body>
 <main>
-    <article class=flexrow>
+    <article class=flexrow type="article">
         <div class="fbox">
-            <p>
+            <p  type="text">
                 Od venkovního prostředí jsem chráněna půlmetrovými cihlovými zdmi, uvnitř dřevem
                 obloženými. Zdivem vede přívod čerstvého vzduchu, spolu s ním do místnosti přichází také
                 venkovní zvuky. <br> Nejzřetelněji se tak setkáš se zvuky lesa a jeho obyvatel, s projevy života
@@ -18,7 +18,7 @@
             </p>
         </div>    
         <div id="fobr">
-          <img class="obrazek" src="img/logo.png" alt="">
+          <img class="obrazek" type="image/png" src="img/logo.png" alt="Logo Tmy">
         </div>            
     </article>    
 </main>

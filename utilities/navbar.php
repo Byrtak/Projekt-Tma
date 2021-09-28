@@ -1,4 +1,4 @@
-<nav id="mySidenav" class="sidenav">
+<nav id="mySidenav" class="sidenav" role="navigation" aria-label="hlavni navigace">
     <ul id="list">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <li><a href="index.php">Úvodní stránka</a></li>

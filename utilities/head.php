@@ -8,8 +8,8 @@
     <link rel="stylesheet"  type  = "text/css" href="css/style.css">
     <meta name="keywords" content="pobyt ve tmě, terapie ve tmě, léčba tmou, terapie tmou, týden ve tmě, temná místnost, tma léčí, tma není">
     <meta name="description" content="pobyt ve tmě, terapie ve tmě, léčba tmou, terapie tmou, týden ve tmě, temná místnost, tma léčí, tma není">
-    <link rel="icon"  type="img/logo.ico">
+    <link rel="icon" href="img/logo.ico" type="images/x-icon"/>
+    <link rel="shortcut icon" href="img/logo.ico" type="images/x-icon"/>
     <script src="https://api.mapy.cz/loader.js"></script>
 	<script>Loader.load()</script>
-
 </head>

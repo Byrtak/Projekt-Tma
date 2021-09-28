@@ -22,7 +22,7 @@
         </div>          
     </article> 
     <div class="mapa">
-        <div id="mapa" style="width:800px; height:400px;"></div>
+        <div id="mapa"></div>
         Adressa: Dvořáková 134  Čeperka 533 45
     </div>
     </div>  

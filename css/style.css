@@ -342,7 +342,9 @@ p{
     font-size: 1em;
     font-weight: 200;
 }
-
+#mapa{
+  width: 600px;
+}
 
 main{
   margin:0% 10% 3% 15%;

@@ -8,7 +8,7 @@
     <div class="nadpis">
         <p>Tma je jen<br> mámení,<br> tma není.</p> 
             <div class="logo">
-                <img class="obrazek" type="image/png" src="img/logo2.png" alt="Logo Tmy" style="width: 50%;">
+                <img class="obrazek" type="image/png" src="img/Nlogo.png" alt="Logo Tmy" style="width: 50%;">
             </div>            
     </div>
 </body>

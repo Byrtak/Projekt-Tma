@@ -1,5 +1,5 @@
-<?php $title = 'Tma neni'; ?>
-<?php $currentPage = 'index'; ?>
+<?php $title = 'Tma není - Co je slyšet'; ?>
+<?php $currentPage = 'cojeslyset'; ?>
 <?php include('utilities/head.php'); ?>
 <?php include('utilities/navbar.php'); ?>
 
@@ -18,8 +18,10 @@
             </p>
         </div>    
         <div id="fobr">
-          <img class="obrazek" type="image/png" src="img/Nlogo.png" alt="Logo Tmy">
+          <img class="obrazek" type="image/png" style="width:60%" src="img/Nlogo.png" alt="Logo Tmy">
+          
         </div>            
     </article>    
 </main>
+<?php include('utilities/footer.php'); ?>
 </body>

@@ -1,5 +1,5 @@
-<?php $title = 'Tma neni'; ?>
-<?php $currentPage = 'index'; ?>
+<?php $title = 'Tma není - podmínky'; ?>
+<?php $currentPage = 'podmínky'; ?>
 <?php include('utilities/head.php'); ?>
 <?php include('utilities/navbar.php'); ?>
 
@@ -60,4 +60,5 @@
         </article>
  
     </main>
+    <?php include('utilities/footer.php'); ?>
 </body>

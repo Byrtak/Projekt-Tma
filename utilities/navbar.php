@@ -11,8 +11,8 @@
     </div>
     <li class="sideButt"><a href="#" class="sideButt">Co stojím, abych byla</a></li>
     <div class="supSidenav">
-        <li><a href="costojim.php">Pronájem tmy</a></li>
-        <li><a href="strava.php">Stravování</a></li>
+        <li><a href="costojim.php">Pobyt ve Tmě</a></li>
+        <li><a href="strava.php">Stravování ve Tmě</a></li>
     </div>
     <li class="sideButt"><a href="#">Co vidět je, když nejsem</a></li>
     <div class="supSidenav">
@@ -23,11 +23,13 @@
     <li class="sideButt"><a href="#" class="sideButt"><span style=" text-decoration-line: underline; text-underline-offset: 7px;">K objednání jsem</span></a></li>
     <div class="supSidenav">
         <li><a href="poslendniInfo.php">Poslední informace</a></li>
-        <li><a href="https://www.supersaas.cz/schedule/Tma_neni/Tma_Nen%C3%AD" target="_blank">Objednání termínu</a></li>
+        <li><a href="https://www.supersaas.cz/schedule/Tma_neni/Tma_Nen%C3%AD" target="_blank">Volné termíny</a></li>
+        <li><a href="objednaní.php">Objednání termínu</a></li>
         <li><a href="podminky.php">Všeobecné podmínky</a></li>
     </div>
     <li> <a href="kontakt.php"><span style=" text-decoration-line: underline; text-underline-offset: 7px;">Kontakt</span></a></li>
     </div>
+    <li class="sideNew"><a  href="coMuzeVzniknout.php">K čemu může inspirovat pobyt ve Tmě</a></li>
     </ul>
 
 </nav>

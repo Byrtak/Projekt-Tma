@@ -1,4 +1,4 @@
-<?php $title = 'Tma neni'; ?>
+<?php $title = 'Tma není - Vybavení'; ?>
 <?php $currentPage = 'vybaveni'; ?>
 <?php include('utilities/head.php'); ?>
 <?php include('utilities/navbar.php'); ?>
@@ -28,4 +28,5 @@
         </div>
     </article>
 </main>
+<?php include('utilities/footer.php'); ?>
 </body>

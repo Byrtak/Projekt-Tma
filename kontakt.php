@@ -1,5 +1,5 @@
-<?php $title = 'Tma neni'; ?>
-<?php $currentPage = 'index'; ?>
+<?php $title = 'Tma není - Kontakt'; ?>
+<?php $currentPage = 'kontakt'; ?>
 <?php include('utilities/head.php'); ?>
 <?php include('utilities/navbar.php'); ?>
 
@@ -7,6 +7,10 @@
 <body>
 <main>
     <div class="mapbox">
+    <div class="mapa"> 
+        Adressa: Dvořáková 134  Čeperka 533 45
+        <div id="mapa"></div>
+    </div>
     <article class=flexrow>
         <div class="fbox">
             <p type="text">
@@ -18,15 +22,12 @@
             </p>
         </div>
         <div id="fobr">
-        <img class="obrazek" type="image/png" style="width:90%" src="img/logo3.png" alt="Logo Tmy">
+        <img class="obrazek" type="image/png" style="width:60%" src="img/Nlogo2.png" alt="Logo Tmy">
         </div>          
     </article> 
-    <div class="mapa">
-        <div id="mapa"></div>
-        Adressa: Dvořáková 134  Čeperka 533 45
-    </div>
     </div>  
 
     <script type="text/javascript" src="js/map.js"></script>
 </main>
+<?php include('utilities/footer.php'); ?>
 </body>

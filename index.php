@@ -1,4 +1,4 @@
-<?php $title = 'Tma neni'; ?>
+<?php $title = 'Tma není - Pobyt ve tmě'; ?>
 <?php $currentPage = 'index'; ?>
 <?php include('utilities/head.php'); ?>
 <?php include('utilities/navbar.php'); ?>

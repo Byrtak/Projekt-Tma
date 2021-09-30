@@ -1,4 +1,4 @@
-<?php $title = 'Tma neni'; ?>
+<?php $title = 'Tma není - Díky komu tady jsem'; ?>
 <?php $currentPage = 'tadyjsem'; ?>
 <?php include('utilities/head.php'); ?>
 <?php include('utilities/navbar.php'); ?>
@@ -17,8 +17,9 @@
             </p>
         </div>
         <div id="fobr">
-            <img class="obrazek" type="image/png" src="img/Nlogo.png" alt="Logo Tmy">
+            <img class="obrazek" type="image/png" style="width:70%"src="img/Nlogo.png" alt="Logo Tmy">
         </div>
     </article>                    
 </main>
+<?php include('utilities/footer.php'); ?>
 </body>

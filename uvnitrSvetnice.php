@@ -1,5 +1,5 @@
-<?php $title = 'Tma neni'; ?>
-<?php $currentPage = 'index'; ?>
+<?php $title = 'Tma není - Uvnitř Světnice'; ?>
+<?php $currentPage = 'uvnitřSvetnice'; ?>
 <?php include('utilities/head.php'); ?>
 <?php include('utilities/navbar.php'); ?>
 
@@ -31,6 +31,6 @@
             </div>
           </div>
     </main>
-
+    <?php include('utilities/footer.php'); ?>
 <script src="js/galerie.js"></script>
 </body>

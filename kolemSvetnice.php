@@ -1,5 +1,5 @@
-<?php $title = 'Tma neni'; ?>
-<?php $currentPage = 'index'; ?>
+<?php $title = 'Tma neni - Kolem světnice'; ?>
+<?php $currentPage = 'KolemSvetnice'; ?>
 <?php include('utilities/head.php'); ?>
 <?php include('utilities/navbar.php'); ?>
 
@@ -17,7 +17,7 @@
                 </div>
     
                 <div class="gallery-img">
-                    <img src="galerie/4.gif" type="image/gif" alt="Pohled do dveří tmy" id="selectedImage">
+                    <img src="galerie/4.jpg" type="image/gif" alt="Pohled do dveří tmy" id="selectedImage">
                     <img src="galerie/5.jpg" type="image/jpg" alt="Domoobrana" id="selectedImage">
                     
                 </div>
@@ -30,6 +30,6 @@
             </div>
           </div>
     </main>
-
+<?php include('utilities/footer.php'); ?>
 <script src="js/galerie.js"></script>
 </body>

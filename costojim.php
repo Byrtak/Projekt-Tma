@@ -1,5 +1,5 @@
-<?php $title = 'Tma neni'; ?>
-<?php $currentPage = 'index'; ?>
+<?php $title = 'Tma není - Pobyt ve Tmě'; ?>
+<?php $currentPage = 'costojim'; ?>
 <?php include('utilities/head.php'); ?>
 <?php include('utilities/navbar.php'); ?>
 
@@ -27,4 +27,5 @@
         </div>          
     </article>       
 </main>
+<?php include('utilities/footer.php'); ?>
 </body>

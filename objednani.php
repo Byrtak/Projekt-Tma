@@ -10,7 +10,7 @@
         <div class="fbox">
             <p type="text">
             <a style="animation: animace 2s ease-in;
-                text-decoration: none; 
+                text-decoration: none; text-align: center;
                 color: white" type="email" href="mailto:someone@yoursite.com">tmaneni@seznam.cz</a> 
 
             </p>

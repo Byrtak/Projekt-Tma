@@ -23,7 +23,7 @@
             </p>
         </div>
         <div id="fobr">
-            <img class="obrazek" type="image/png" style="width:60%" src="img/Nlogo.png" alt="Logo Tmy">
+            <img class="obrazek" type="image/png" src="img/Nlogo.png" alt="Logo Tmy">
         </div>          
     </article>       
 </main>

@@ -10,8 +10,8 @@
         <div class="container">
             <div class="box">
                 <div class="gallery-img">
-                    <img src="galerie/1.png" type="image/png" alt="Pohled z lesa">
-                    <img src="galerie/2.png" type="image/png" alt="Od stromu z leva" id="selectedImage">
+                    <img src="galerie/1.jpg" type="image/jpg" alt="Pohled z lesa">
+                    <img src="galerie/2.jpg" type="image/jpg" alt="Od stromu z leva" id="selectedImage">
                    
                     
                 </div>

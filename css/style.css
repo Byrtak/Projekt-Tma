@@ -241,6 +241,7 @@ footer{
   color: white;
   font-size: 1.4em;
   font-weight: 400;
+  margin-bottom: 1%;
  
 }
 
@@ -281,7 +282,7 @@ p{
   width: 80% !important;
 }
 #mapa{
-   width: 100%;
+   width: 300px;
 }
 
 main{
